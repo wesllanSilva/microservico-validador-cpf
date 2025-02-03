@@ -10,16 +10,15 @@ CTRL + SHIFT + p
 
 - Criar uma diretório ex: httpValidaCpf
 - Dentro da diretório 'httpValidaCpf' adicione o runtime 
-    func init --worker-runtime dotnet
-- Criar Função
- '''
-    func new
- '''
+    'func init --worker-runtime dotnet'
+- Criar Função 
+    'func new'
+
 - Escolher opção httptrigger e dar nome ex: fnvalidacpf
 - Iniciar função
-    func start
+    'func start'
 
 
  - Antes de publicar verificar "local.settings.json' e alterar a "FUNCTIONS_WORKER_RUNTIME" para "dotnetIsoloated"
  - publicar no Azure
-  func azure functionapp publish fnwstackappdev002 
+  'func azure functionapp publish <NomeFaFuncao>
