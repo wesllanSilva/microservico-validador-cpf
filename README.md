@@ -1,4 +1,4 @@
-"# microservico-validador-cpf" 
+# microservico-validador-cpf
 
 VS code
 CTRL + SHIFT + p
@@ -11,8 +11,10 @@ CTRL + SHIFT + p
 - Criar uma diretório ex: httpValidaCpf
 - Dentro da diretório 'httpValidaCpf' adicione o runtime 
     func init --worker-runtime dotnet
-- Criar Função 
+- Criar Função
+ '''
     func new
+ '''
 - Escolher opção httptrigger e dar nome ex: fnvalidacpf
 - Iniciar função
     func start
